@@ -1,24 +1,25 @@
-###My name
+### My name
 
 **Name:** Serhii
 
 **Last name:** Skrypnyk
 
-###Contacts
+### Contacts
 
 1. **email:** sergioserg835@gmail.com
 1. **phone (viber, telegram):** +380966796179
 1. **skype:** sergio_serg1
 
-###About me
+### About me
 
 My goal is to become a high-level web developer. At the moment, I have focused on studying **js**, as I understand how much I need it in my work.
 
 My profile on freelance:
-_[freelance.ua](https://freelance.ua/user/sergio_serg/)
-_[freelancehunt.com](https://freelancehunt.com/freelancer/sergio_serg.html)
 
-###My skills
+- [freelance.ua](https://freelance.ua/user/sergio_serg/)
+- [freelancehunt.com](https://freelancehunt.com/freelancer/sergio_serg.html)
+
+### My skills
 
 1. html
 1. css
@@ -27,7 +28,7 @@ _[freelancehunt.com](https://freelancehunt.com/freelancer/sergio_serg.html)
 1. bootstrap
 1. wordpress
 
-###Sample code
+### Sample code
 
 ```
 $("#subject2").change(function() {
@@ -41,7 +42,7 @@ $("#subject2").change(function() {
 });
 ```
 
-###Experience
+### Experience
 
 I worked as a teacher at the university and part-time as a computer science teacher at school. For 5 years I was the deputy director at the Zaporizhia classical lyceum.
 
@@ -56,16 +57,16 @@ I have experience in freelancing where I have done the following work:
 
 **Examples of my work:**
 
-_[Generator Number Pyramid](https://childdevelop.com.ua/generator/math/math_pyramids.html)
-_[Equation generator](https://childdevelop.com.ua/generator/math/equation.html)
-_[Creating a theme on WordPress and stretching the layout](https://u-kutyur.com)
-_[Creating a theme on WordPress and stretching the layout](https://jd.ruso.md)
+- [Generator Number Pyramid](https://childdevelop.com.ua/generator/math/math_pyramids.html)
+- [Equation generator](https://childdevelop.com.ua/generator/math/equation.html)
+- [Creating a theme on WordPress and stretching the layout](https://u-kutyur.com)
+- [Creating a theme on WordPress and stretching the layout](https://jd.ruso.md)
 
-###Education
+### Education
 
 Economist-cybernetics (2004), management of educational institutions and their structural divisions (2011).
 
-###English
+### English
 
 My English level is A2.
 
