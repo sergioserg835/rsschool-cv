@@ -8,121 +8,126 @@
     <title>HTML/CSS</title>
 </head>
 <body>
-    <main>
-        <h1>Let me introduce myself</h1>
-        <figure class="wrapper-photo">
-            <img src="./image/photo.jpg" alt="my photo">
-        </figure>
-        <section>
-            <h3>My name</h3>
-            <p>
-                <strong>Name:</strong> Serhii
-            </p>
-            <p>
-                <strong>Last name:</strong> Skrypnyk
-            </p>
-        </section>
-        <section>
-            <h3>Contacts</h3>
-            <address>
-                <ol>
-                    <li><strong>email:</strong><a href="mailto:sergioserg835@gmail.com"> sergioserg835@gmail.com</a></li>
-                    <li><strong>phone (viber, telegram):</strong><a href="tel:+380966796179"> +38(096)679-61-79</a></li>
-                    <li><strong>skype:</strong> sergio_serg1</li>
-                </ol>
-            </address>
-        </section>
-
-        <section>
-            <h3>About me</h3>
-            <p>
-                My goal is to become a high-level web developer. At the moment, I have focused on studying js, as I understand how much I need it in my work.
-            </p>
-            <p>
-                My profile on freelance:
-            </p>
-            <ul>
-                <li><a href="https://freelance.ua/user/sergio_serg/">freelance.ua</a></li>
-                <li><a href="https://freelancehunt.com/freelancer/sergio_serg.html">freelancehunt.com</a></li>
-            </ul>
-        </section>
-        
-        <section>
-            <h3>My skills</h3>
-            <ol>
-                <li>html</li>
-                <li>css</li>
-                <li>php</li>
-                <li>mysql</li>
-                <li>bootstrap</li>
-                <li>wordpress</li>
-            </ol>
-        </section>
-        
-        <section>
-            <h3>Sample code</h3>
-        <pre>
-$("#subject2").change(function() {
-    var subject2 = $(this).val();
-    var subject3 = $("#subject3").val();
-    if ((subject2 != '') && (subject3 != '')) {
-        $("#btnSearchSubject").removeAttr('disabled');
-    }
-    var clear = '';
-    $("#detailSubject").html(clear);
-});
-        </pre>
-        </section>
-        
-        <section>
-            <h3>Experience</h3>
-            <p>
-                I worked as a teacher at the university and part-time as a computer science teacher at school. For 5 years I was the deputy director at the Zaporizhia classical lyceum.
-            </p>
-            <p>
-                For several years I administered the site of the Zaporizhia classical lyceum. My responsibilities included filling the site with content, adding new functionality, and periodic design edits.
-            </p>
-            <p>
-                I have experience in freelancing where I have done the following work:
-            </p>
-            <ul>
-                <li>creating themes for WordPress;</li>
-                <li>development of online calculators;</li>
-                <li>development of task generators for a children's development site <a href="https://childdevelop.com.ua">childdevelop.com.ua</a>;</li>
-                <li>making various edits to working sites.</li>
-            </ul>
-            <p>
-                <strong>Examples of my work:</strong>
-            </p>
-            <ul>
-                <li><a href="https://childdevelop.com.ua/generator/math/math_pyramids.html">Generator Number Pyramid</a></li>
-                <li><a href="https://childdevelop.com.ua/generator/math/equation.html">Equation generator</a></li>
-                <li><a href="https://u-kutyur.com">Creating a theme on WordPress and stretching the layout</a></li>
-                <li><a href="https://jd.ruso.md">Creating a theme on WordPress and stretching the layout</a></li>
-            </ul>
-        </section>
-        
-        <section>
-            <h3>Education</h3>
-            <p>
-                Economist-cybernetics (2004), management of educational institutions and their structural divisions (2011).
-            </p>
-            <h3>English level</h3>
-            <p>
-                My English level is A2.
-            </p>
-            <p>
-                I am currently studying online courses in my city (B1).
-            </p>
-            <p>
-                Last year I took language practice at courses Michael Gott International.
-            </p>
-        </section>
-    </main>
-
-    <footer>
-        <a href="https://github.com/sergioserg835/">My GitHub</a>
-        <a href="https://rs.school/js/"><img src="./image/rs_school_js.svg" alt="rs-school" width="100px"></a>
-    </footer>
+    <div id="main-wrapper">
+        <header>
+            <h1>Let me introduce myself</h1>
+            <figure class="wrapper-photo">
+                <img src="./image/photo.jpg" alt="my photo">
+            </figure>
+        </header>
+        <main>
+            <section>
+                <h2>My name</h2>
+                <p>
+                    <strong>Name:</strong> Serhii
+                </p>
+                <p>
+                    <strong>Last name:</strong> Skrypnyk
+                </p>
+            </section>
+            <section>
+                <h2>Contacts</h2>
+                <address>
+                    <ul>
+                        <li><strong>email:</strong><a href="mailto:sergioserg835@gmail.com"> sergioserg835@gmail.com</a></li>
+                        <li><strong>phone (viber, telegram):</strong><a href="tel:+380966796179"> +38(096)679-61-79</a></li>
+                        <li><strong>skype:</strong> sergio_serg1</li>
+                    </ul>
+                </address>
+            </section>
+    
+            <section>
+                <h2>About me</h2>
+                <p>
+                    My goal is to become a high-level web developer. At the moment, I have focused on studying js, as I understand how much I need it in my work.
+                </p>
+                <p>
+                    My profile on freelance:
+                </p>
+                <ul>
+                    <li><a href="https://freelance.ua/user/sergio_serg/">freelance.ua</a></li>
+                    <li><a href="https://freelancehunt.com/freelancer/sergio_serg.html">freelancehunt.com</a></li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>My skills</h2>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>php</li>
+                    <li>mysql</li>
+                    <li>bootstrap</li>
+                    <li>wordpress</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Sample code</h2>
+            <pre>
+    $("#subject2").change(function() {
+        var subject2 = $(this).val();
+        var subject3 = $("#subject3").val();
+        if ((subject2 != '') && (subject3 != '')) {
+            $("#btnSearchSubject").removeAttr('disabled');
+        }
+        var clear = '';
+        $("#detailSubject").html(clear);
+    });
+            </pre>
+            </section>
+            
+            <section>
+                <h2>Experience</h2>
+                <p>
+                    I worked as a teacher at the university and part-time as a computer science teacher at school. For 5 years I was the deputy director at the Zaporizhia classical lyceum.
+                </p>
+                <p>
+                    For several years I administered the site of the Zaporizhia classical lyceum. My responsibilities included filling the site with content, adding new functionality, and periodic design edits.
+                </p>
+                <p>
+                    I have experience in freelancing where I have done the following work:
+                </p>
+                <ul>
+                    <li>creating themes for WordPress;</li>
+                    <li>development of online calculators;</li>
+                    <li>development of task generators for a children's development site <a href="https://childdevelop.com.ua">childdevelop.com.ua</a>;</li>
+                    <li>making various edits to working sites.</li>
+                </ul>
+                <p>
+                    <strong>Examples of my work:</strong>
+                </p>
+                <ul>
+                    <li><a href="https://childdevelop.com.ua/generator/math/math_pyramids.html">Generator Number Pyramid</a></li>
+                    <li><a href="https://childdevelop.com.ua/generator/math/equation.html">Equation generator</a></li>
+                    <li><a href="https://u-kutyur.com">Creating a theme on WordPress and stretching the layout</a></li>
+                    <li><a href="https://jd.ruso.md">Creating a theme on WordPress and stretching the layout</a></li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>Education</h2>
+                <p>
+                    Economist-cybernetics (2004), management of educational institutions and their structural divisions (2011).
+                </p>
+                <h2>English level</h2>
+                <p>
+                    My English level is A2.
+                </p>
+                <p>
+                    I am currently studying online courses in my city (B1).
+                </p>
+                <p>
+                    Last year I took language practice at courses Michael Gott International.
+                </p>
+            </section>
+        </main>
+    
+        <footer>
+            <a href="https://github.com/sergioserg835/">My GitHub</a>
+            <span>&copy;2021</span>
+            <a href="https://rs.school/js/"><img src="./image/rs_school_js.svg" alt="rs-school" width="100"></a>
+        </footer>
+    </div>
 </body>
 </html>

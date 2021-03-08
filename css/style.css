@@ -4,8 +4,7 @@ main {
   margin: 0;
 }
 
-main,
-footer {
+#main-wrapper {
   width: 75%;
   margin: 0 auto;
 }
@@ -27,11 +26,11 @@ footer {
 }
 
 .wrapper-photo img {
-  max-width: 100%;
+  width: 200px;
   height: auto;
 }
 
-h3 {
+h2 {
   font-size: 24px;
   color: #1c452c;
 }
@@ -77,8 +76,7 @@ footer a:visited {
 }
 
 @media (max-width: 767px) {
-  main,
-  footer {
+  #id-wrapper {
     width: 90%;
   }
 
@@ -88,11 +86,10 @@ footer a:visited {
 }
 
 @media (max-width: 500px) {
-  h3 {
+  h2 {
     font-size: 20px;
   }
 
-  ol,
   ul {
     padding-left: 20px;
   }
